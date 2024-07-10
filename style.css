@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://cdn.prod.website-files.com/5f7ece8a7da656e8a25402bc/631f32ee984371cb97df4ce2_How%20to%20take%20notes%20from%20a%20textbook.png);
+    padding-top: 3%;
+    padding-left: 7%;
+    
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.container h1 img{
+    width: 50px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background-color: #388e3c; /* Deep green */
+    color: white; /* White text */
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    margin: 20px 0 20px;
+    
+}
+.container button:hover{
+    background-color: #442f66; 
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background:#fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.input-box img{
+    position: absolute;
+    width: 25px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
